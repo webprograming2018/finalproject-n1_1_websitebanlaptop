@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(" ../imageweb/654259.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+}
+
+.form{
+    margin: 0% 30% 3.1% 30%;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+
+}
+div.Login
+{
+    font-size: 50px;
+    color: red;
+
+}
+div.UserName
+{
+    font-size: 30px;
+    color: yellow;
+
+}
+
+div.PassWord
+{
+    font-size: 30px;
+    color: yellow;
+
+}
+
+div.Dangnhap{
+    margin: 20px 20px 5px;
+    padding: 20px;
+}
+.Dangki a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font: 20px;
+}
+#dangnhap:hover
+{
+    border: 2px solid fuchsia;
+}
+#dangnhap
+{
+    padding: 15px; 
+    width: 180px;
+    font-family: 'Yellowtail', cursive;
+    border-radius: 7px;/*viền uốn*/
+    background-color: silver;
+}
+#pass{
+    padding: 15px; 
+    max-width: 400px;
+    font-family: 'Yellowtail', cursive;
+    border-radius: 7px;/*viền uốn*/
+    background-color: #FEDF96;
+}
+#user{
+    padding: 15px; 
+    max-width: 400px;
+    font-family: 'Yellowtail', cursive;
+    border-radius: 7px;/*viền uốn*/
+    background-color: #FEDF96;
+}
+#user:hover{
+    border: 2px solid red;
+}
+#pass:hover{
+    border: 2px solid red;
+}

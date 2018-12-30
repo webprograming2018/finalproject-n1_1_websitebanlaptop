@@ -1,0 +1,105 @@
+﻿
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../imageweb/hinh-nen-zed-dep-19.jpg");
+
+    /*background-size: 100%;*/
+    background-size: 100% 100%;
+}
+
+div.Register
+{
+    font-size: 50px;
+    color: red;
+
+}
+
+
+div.PassWord
+{
+    font-size: 30px;
+    color: yellow;
+
+}
+div.RePass
+{
+    font-size: 30px;
+    color: yellow;
+
+}
+div.Gmail
+{
+    font-size: 30px;
+    color: yellow;
+
+}
+div.Dangki{
+    margin: 0px 20px 5px;
+    padding: 20px;
+}
+#dangnhap
+{
+    padding: 15px; 
+    width: 180px;
+    font-family: 'Yellowtail', cursive;
+    border-radius: 7px;/*viền uốn*/
+    background-color: silver;
+}
+#dangnhap:hover
+{
+    border: 2px solid fuchsia;
+}
+#email:hover
+{
+    border: 2px solid red;
+}
+#email{
+    padding: 15px; 
+    max-width: 400px;
+    font-family: 'Yellowtail', cursive;
+    border-radius: 7px;/*viền uốn*/
+    background-color: #FEDF96;
+}
+.form{
+    margin: 0% 30% 0% 30%;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+
+}
+
+
+#pass{
+    padding: 15px; 
+    max-width: 400px;
+    font-family: 'Yellowtail', cursive;
+    border-radius: 7px;/*viền uốn*/
+    background-color: #FEDF96;
+}
+
+#pass:hover{
+    border: 2px solid red;
+}
+
+#repass{
+    padding: 15px; 
+    max-width: 400px;
+    font-family: 'Yellowtail', cursive;
+    border-radius: 7px;/*viền uốn*/
+    background-color: #FEDF96;
+}
+#repass:hover
+{
+    border: 2px solid red;
+}
+#user{
+    padding: 15px; 
+    max-width: 400px;
+    font-family: 'Yellowtail', cursive;
+    border-radius: 7px;/*viền uốn*/
+    background-color: #FEDF96;
+}

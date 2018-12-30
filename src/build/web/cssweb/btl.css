@@ -1,0 +1,161 @@
+
+
+body
+{
+    background-color: #CCFBAC !important;
+}
+.dropdown-menu li
+{
+    background-color:silver;
+    font-family: 'Courgette', cursive;
+    text-transform: uppercase;
+
+}
+div.productnote ul li
+{
+    list-style-type: none;
+
+}
+div.about{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: silver;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#gia
+{
+    color: red;
+    font-size: 23px;
+    font-weight: bold;
+}
+.logo1 img{
+    margin: 10px 10px 10px 70px;
+    width:10px;
+    float: left;
+}
+.logo
+{
+    height: auto;
+    background-image: url("../imageweb/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.logo
+{
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+.menu{
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+@media screen and (max-width: 770px) {
+    .productnote {
+        display:none;
+    }
+    .product{
+        height: 90%;
+        width: 90%;
+    }
+    .logo {
+        background-size: 100% 100%;
+    }
+}
+.nav li
+{
+    color: white;
+    font-family: 'Courgette', cursive;
+    text-transform: uppercase;
+    width: 150px;
+    text-align: center;
+}
+
+/*css phần sản phẩm*/
+
+
+.product
+{
+    border: 2px solid silver;
+    height: 460px;
+    margin: 10px;
+    background-color: white;
+}
+.productimg{
+
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+.product:hover{
+    border: 2px solid greenyellow;
+}
+.productimg img
+{
+    max-width: 90%;
+    height: 150px;
+    margin: 10px;
+}
+.productnote{
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top:10px;
+    height: 55px;
+    width: 90%;  
+    text-align: left;
+    border-top: 1px solid silver;
+
+}
+
+/*----*/
+ul.start {
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+}
+ul.start li {
+    display: inline-block;
+    padding: 0 0.25em;
+}
+ul.start li.arrow a, ul.start li span {
+    text-decoration: none;
+    color: #362f2f;
+    font-size: 1em;
+    padding: 0.4em 0.9em;
+    background: rgb(217,217,217);
+    border-radius: 5px;
+    display:block;
+}
+ul.start li span,ul.start li.arrow a:hover{
+    background-color: darkorange;
+    color:#fff;
+}
+ul.start li a i{
+    width: 36px;
+    height: 36px;
+
+}
+.next2 img{
+   width:36px;
+}
+.next2 img:hover {
+  width: 40px;
+}
+.previous2 img{
+   width:36px;
+}
+.previous2 img:hover {
+  width: 40px;
+}
+/*.move :hover img{
+    transform: scale(1.05);
+}
+*/
+
+
+
+

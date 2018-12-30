@@ -1,0 +1,127 @@
+.cost
+{
+    color: black;
+    font-size: 20px;
+    margin: 10px 100px;
+}
+.dropdown-menu li
+{
+    background-color:silver;
+    font-family: 'Courgette', cursive;
+    text-transform: uppercase;
+
+}
+.imgbin img
+{
+
+    height: 50px;
+    margin: 10px;
+}
+.imgbin
+{
+
+    font-size: 20px;
+    color: blue;
+}
+.logo
+{
+    height: auto;
+    background-image: url("../imageweb/beautiful-rain-drops-frozen-time-footage-000938916_prevstill.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo1 img{
+    margin: 10px 10px 10px 70px;
+    width:10px;
+    float: left;
+}
+
+.logo
+{
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+.menu{
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+
+.nav li
+{
+    color: white;
+    font-family: 'Courgette', cursive;
+    text-transform: uppercase;
+    width: 180px;
+    text-align: center;
+}
+
+/*css phần sản phẩm*/
+#payment1{
+    margin-left: 250px;
+    padding: 15px; 
+    width: 250px;
+    font-family: 'Yellowtail', cursive;
+    border-radius: 7px;/*viền uốn*/
+    background-color: silver;
+}
+#payment1:hover {
+    background-color: yellow;
+    text-decoration: none;
+}
+.productnote ul li
+{
+    list-style-type: none;
+
+}
+.product
+{
+    border: 2px solid silver;
+    height: 460px;
+    margin: 10px;
+    background-color: white;
+}
+.productimg{
+
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+.product:hover{
+    border: 2px solid greenyellow;
+}
+.productimg img
+{
+    max-width: 90%;
+    height: 150px;
+    margin: 10px;
+}
+.productnote{
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top:10px;
+    height: 55px;
+    width: 90%;  
+    text-align: left;
+    border-top: 1px solid silver;
+
+}
+
+.title
+{
+    background-color: silver;
+    margin: 50px;
+    padding: 50px;
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+}
+.total
+{
+    margin-top: 50px;
+    font-size: 35px;
+    color: red;
+}
